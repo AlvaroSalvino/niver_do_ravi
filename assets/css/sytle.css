@@ -1,0 +1,50 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(/assets/img/set-bow-ties-mustaches.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    /* background-position: right top; 
+    position: relative;  */
+}
+
+.container{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    /* justify-content: center; */
+}
+
+h1 {
+    background-color: white;
+    padding: 0 1rem;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 5rem;
+    color: #1A2834;
+    z-index: 10;
+}
+
+.convite {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 173px;
+    background-color: white;
+    padding: 0 .5rem;
+    position: relative;
+    left: 10%;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #1A2834;
+    z-index: 10;
+}
+
+.ravi {
+    width: 30%;
+    position: absolute;
+    top: -90px;
+    right: 15%;
+    /* z-index: 10; */
+}
